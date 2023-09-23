@@ -7,13 +7,13 @@ type Props = {};
 
 const page = (props: Props) => {
   return (
-    <div className='flex flex-col w-full px-20 pt-20'>
-    <DestinationTitle title='Monas' />
-    <div className='flex flex-col md:flex-row justify-center gap-20'>
-      <DestinationCarousel/>
-      <DestinationDetail/>
+    <div className="flex flex-col w-full px-20 pt-20">
+      <DestinationTitle title="Monas" />
+      <div className="flex flex-col md:flex-row justify-center gap-20">
+        <DestinationCarousel />
+        <DestinationDetail />
+      </div>
     </div>
-  </div>
   );
 };
 

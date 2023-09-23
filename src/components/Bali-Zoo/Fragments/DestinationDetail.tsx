@@ -1,9 +1,7 @@
 "use client";
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import Link from "next/link";
-import { BaliZooContext } from "@/context/BaliZooContext";
-
-
+import {BaliZooContext} from "@/context/BaliZooContext";
 
 const DestinationDetail = () => {
   const {detail} = useContext(BaliZooContext);

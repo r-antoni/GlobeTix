@@ -5,9 +5,7 @@ export default function DetailLayout({children}: {children: React.ReactNode}) {
   return (
     <div>
       <Header />
-      <BaliZooProvider>
-          {children}
-      </BaliZooProvider>
+      <BaliZooProvider>{children}</BaliZooProvider>
     </div>
   );
 }

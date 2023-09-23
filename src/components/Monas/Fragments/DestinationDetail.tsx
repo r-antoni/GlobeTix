@@ -1,8 +1,7 @@
 "use client";
-import React, { useContext } from "react";
+import React, {useContext} from "react";
 import Link from "next/link";
-import { MonasContext } from "@/context/MonasContext";
-
+import {MonasContext} from "@/context/MonasContext";
 
 const DestinationDetail = () => {
   const {detail} = useContext(MonasContext);

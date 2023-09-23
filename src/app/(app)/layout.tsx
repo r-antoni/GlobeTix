@@ -2,7 +2,6 @@ import Header from "@/components/Shared/Fragments/Header";
 import BaliProvider from "@/context/BaliContext";
 import JavaProvider from "@/context/JavaContext";
 
-
 export default function AppLayout({children}: {children: React.ReactNode}) {
   return (
     <div>

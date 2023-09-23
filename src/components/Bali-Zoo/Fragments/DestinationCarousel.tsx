@@ -1,7 +1,7 @@
-"use client"
-import React, { useContext } from "react";
+"use client";
+import React, {useContext} from "react";
 import {Carousel} from "flowbite-react";
-import {BaliZooContext} from "@/context/BaliZooContext"
+import {BaliZooContext} from "@/context/BaliZooContext";
 
 const DestinationCarousel = () => {
   const {carouselImage} = useContext(BaliZooContext);
